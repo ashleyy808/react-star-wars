@@ -1,7 +1,5 @@
-
 .App {
   text-align: center;
-  background-color: black;
 }
 
 .App-header {
@@ -14,8 +12,15 @@
   font-size: calc(30px + 2vmin);
   color: #E8C05D;
   font-family: 'Anton', sans-serif;
-  background-image: url('https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-14-1536x864.jpg');
+  background-color: black;
   background-size: cover;
 }
 
-
+.ships {
+  height: calc(100% - 100px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
