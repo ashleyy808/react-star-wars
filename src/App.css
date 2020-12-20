@@ -24,3 +24,7 @@
   align-items: center;
   justify-content: center;
 }
+
+body {
+  background-image: url ('https://unsplash.com/photos/9o-VrJSwGuw');
+}
